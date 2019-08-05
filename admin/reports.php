@@ -249,7 +249,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            UI Ventures | Sales Prediction System<br> Designed by: Tijani Abdulazeez Titilope (186150) <a href="#"></a>
+           My Supermarket<br> Powered by: Tijazz ICT Solutions <a href="#"></a>
           </div>
           <div class="clearfix"></div>
         </footer>

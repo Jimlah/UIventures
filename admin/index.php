@@ -29,8 +29,9 @@
                 <br />
 
                 <div>
-                 <p> <h1 style="color: WHITE"> UI Ventures <br> Sales Predicting System </h1></p>
-                  <p style="color: black">©2018 Designed by: Tijani Abdulazeez Titilope (186150)</p>
+                 <p> 
+                  <p style="color: black;"><strong>Copyright &copy; <?php echo date("Y"); ?> <a href="" style="color: white;">My Supermarket</a></p><p style="color: black;">Powered by: Tijazz ICT Solutions</p>
+                  </p>
                 </div>
               </div>
             </form>

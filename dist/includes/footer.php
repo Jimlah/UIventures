@@ -1,6 +1,6 @@
 <script src="../dist/js/date_time.js"></script>
  <footer class="main-footer" style="text-align:center">
-        <p><strong>Copyright &copy; 2018 <a href="">UI Ventures | Sales Prediction System</a>.</p><p>Designed by: Tijani Abdulazeez Titilope (186150)</p>
+        <p><strong>Copyright &copy; <?php echo date("Y"); ?> <a href="">My Supermarket</a>.</p><p>Powered by: Tijazz ICT Solutions</p>
         	
 </strong> 
                

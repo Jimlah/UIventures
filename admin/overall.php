@@ -44,7 +44,7 @@
 				<div class="panel-heading">
 				  <h3 class="box-title">Select Date</h3>
 				  <a class = "btn btn-success btn-print" href = "" onclick = "window.print()"><i class ="glyphicon glyphicon-print"></i> Print</a>
-				  <a class = "btn btn-primary btn-print" href = "home.php"><i class ="glyphicon glyphicon-arrow-left"></i> Back to Homepage</a>
+				  <a class = "btn btn-primary btn-print" href = "reports.php"><i class ="glyphicon glyphicon-arrow-left"></i> Back to Homepage</a>
 				</div>
 				<div class="box-body">
 				
@@ -83,9 +83,20 @@
 							<i class="fa fa-calendar"></i>
 						  </div>
 						<select class="form-control select2" name="year" tabindex="1" required>
-							<option>2017</option>
 							<option>2018</option>
 							<option>2019</option>
+							<option>2020</option>
+							<option>2021</option>
+							<option>2022</option>
+							<option>2023</option>
+							<option>2024</option>
+							<option>2025</option>
+							<option>2026</option>
+							<option>2027</option>
+							<option>2028</option>
+							<option>2029</option>
+							<option>2030</option>
+							
 							
 								  
 						</select>
@@ -170,7 +181,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Sales Prediction System <a href="#"></a>
+            My Supermarket  <a href="#"></a>
           </div>
           <div class="clearfix"></div>
         </footer>

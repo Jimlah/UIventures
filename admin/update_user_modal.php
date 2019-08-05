@@ -27,7 +27,8 @@
 									<br/>
 								<label>Branch Name</label>
 									<select name = "branch_id" class = "form-control">
-										<option value = "<?php echo $row['branch_id'];?>"><?php echo $row['branch_name'];?></option>
+										<option value = "<?php echo $row['branch_id'];?>"><?php echo $row['branch_name'];?>
+										</option>
 										<option></option>
 										<?php	
 											include 'dbcon.php';								

@@ -28,7 +28,7 @@
    
     <div class="login-box">
       <div class="login-logo">
-        <b>UI Ventures | Sales Prediction System</b>
+        <b>My Supermarket</b>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>

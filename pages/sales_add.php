@@ -13,8 +13,8 @@ include('../dist/includes/dbcon.php');
 	$branch=$_SESSION['branch'];
 	
 	$total=$amount_due-$discount;
-	$cid=$_REQUEST['cid'];
-
+	//$cid=$_REQUEST['cid'];
+	$interest = 0;
 		$tendered = $_POST['tendered'];
 		$change = $_POST['change'];
 
@@ -49,8 +49,8 @@ include('../dist/includes/dbcon.php');
 					$or=$or+1;
 				}
 
-				mysqli_query($con,"INSERT INTO payment(cust_id,user_id,payment,payment_date,branch_id,payment_for,due,status,sales_id,or_no) 
-	VALUES('$cid','$id','$total','$date','$branch','$date','$total','paid','$sales_id','$or')")or die(mysqli_error($con));
+				mysqli_query($con,"INSERT INTO payment(cust_id,user_id,payment,payment_date,branch_id,payment_for,due,status,sales_id,or_no,interest,remaining,rebate) 
+	VALUES('$cid','$id','$total','$date','$branch','$date','$total','paid','$sales_id','$or', '$interest', '$change','$interest')")or die(mysqli_error($con));
 				echo "<script>document.location='receipt.php?cid=$cid'</script>";  	
 		
 		$result=mysqli_query($con,"DELETE FROM temp_trans where branch_id='$branch'")	or die(mysqli_error($con));

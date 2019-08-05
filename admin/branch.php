@@ -76,8 +76,7 @@
 
         <!-- footer content -->
         <footer>
-          <div class="pull-right">
-            Sales and Inventory System <a href="#"></a>
+          <div class="pull-right">My Supermarket  <a href="#"></a>
           </div>
           <div class="clearfix"></div>
         </footer>
